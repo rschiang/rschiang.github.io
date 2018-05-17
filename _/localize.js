@@ -13,4 +13,4 @@ var localize = (function(languages) {
     replace('data-l10n-alt', function(e, str) { e.setAttribute('alt', str); });
     document.documentElement.setAttribute('lang', 'en');
 });
-document.addEventListener('DOMContentLoaded', localize);
+localize();
