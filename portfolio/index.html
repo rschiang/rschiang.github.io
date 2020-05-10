@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Poren Chiang — Portfolio</title>
+	<meta property="og:title" content="Portfolio">
+	<meta property="og:site_name" content="Poren Chiang">
+	<meta property="og:description" content="Poren Chiang is a LL.M. candidate at UCLA School of Law, specialized in Digital Law and Policy.">
+	<meta property="og:image" content="https://poren.tw/_/img/profile.jpg">
+	<meta property="og:url" content="https://poren.tw/portfolio/">
+	<link rel="stylesheet" type="text/css" href="https://poren.tw/_/2020.css">
+	<link rel="stylesheet" type="text/css" href="https://poren.tw/_/fonts.css">
+	<link rel="icon" type="image/png" href="https://poren.tw/favicon.png">
+</head>
+<body>
+	<header>
+		<a rel="index" href="https://poren.tw/">
+			<img class="avatar" alt="Poren Chiang" src="https://poren.tw/_/img/2020/avatar.png">
+			<h1 class="site-name">Poren Chiang</h1>
+		</a>
+	</header>
+	<nav>
+		<ul class="main-nav">
+			<li ><a href="https://poren.tw/bio/">Biography</a></li>
+			<li class="active"><a href="https://poren.tw/portfolio/">Portfolio</a></li>
+			<li ><a href="https://poren.tw/presentations/">Presentations</a></li>
+			<li ><a href="https://poren.tw/floss/">FLOSS</a></li>
+		</ul>
+	</nav>
+	<main>
+<article>
+    <h1>Portfolio</h1>
+    <h3>NTU voter authentication system</h3>
+<p>The electronic system redesign was adopted in 2014 and used in the semiannual campus elections.</p>
+<p>Electronic voting in NTU consists of two independently operated services — an anonymous ballot casting system (written by <a href="https://github.com/mousems/NTUvoteV2">MouseMs</a>), and a set of heavily supervised voter authentication methods. This may include in-person ID verification, prior registration of remote voting through e-mail, or by other means.</p>
+<p>Designed to mimic paper ballot distribution as in Taiwan’s elections, the central server maintains a set of pregenerated, notorized external tokens (“blank ballots”). NFC-enabled <a href="https://github.com/rschiang/ntu-vote-authenticator">Android devices</a> (and later <a href="https://github.com/rschiang/ntu-vote-client">Windows</a>) devices set up at the voting centers would be able to read the campus ID, ask the central server to verify its validity, and issue an unused token from the pool. These tokens would be dispatched to the tablets at the same voting center by the very same client.</p>
+<p><a href="https://github.com/rschiang/ntu-vote-auth-server">Project Home</a> | <a href="https://github.com/rschiang/ntu-vote-auth-stat">Statistics</a> | <a href="https://speakerdeck.com/rschiang/ok-ntu-lets-cast-e-vote">Slide</a> at <a href="https://summit.g0v.tw/2018/speakers/recqfasll9wmLIaY7">g0v.tw summit 2018</a> and <a href="https://speakerdeck.com/rschiang/fantastic-vote-system-and-where-to-find-em">SOSCONF ’18</a></p>
+<h3>Statute typesetter &amp; publication toolkit</h3>
+<p>The <cite>Concise Statute Compilation of NTU Student Association</cite>. By parsing the original source used by NTU Student Congress to generate original statute, convert to <abbr title="Document Object Model">DOM</abbr>, and generate print-ready HTML documents according to <a href="https://www.w3.org/TR/css3-page/">CSS3 Paged Media Module</a></p>
+<p>簡單來說，就是透過程式精簡條文，用「網頁」這種大家習以為常的開放標準排版，並產生具有印刷水平、又同時可以線上閱讀的「民間版」法典。除發行紙本版本外，亦可於此網站瀏覽線上版本；用以解析、排版之程式原始碼，亦於 GitHub 上以 GNU GPLv3 公眾授權釋出。</p>
+<p><a href="https://poren.tw/ntusc-statute/">Website</a> | <a href="https://github.com/rschiang/ntusc-statute">Project Home</a> | ISBN <a href="https://ntu.primo.exlibrisgroup.com/permalink/886NTU_INST/14poklj/alma991038540783004786">9789869633703</a></p>
+<p>Co-maintainer of <a href="https://github.com/ntu-student-congress/tortue">Tortue</a></p>
+<ul>
+<li><a href="https://github.com/rschiang/ntu-odf">Blank ODF template</a></li>
+</ul>
+<h2>Commissions</h2>
+<ul>
+<li><a href="https://chaojuchen.blogspot.com/">Prof. Chao-ju Chen</a>’s personal website, implemented as <a href="https://github.com/rschiang/chaojuchen">Blogger template</a></li>
+<li><a href="https://github.com/rschiang/ntu-referendum">Referendum</a> [Django]</li>
+</ul>
+<h3>FLOSS</h3>
+<h4>Utilities</h4>
+<ul>
+<li><a href="https://github.com/rschiang/moso">Moso</a>, minimalist Pomodoro timer app [Swift]</li>
+<li><a href="https://github.com/rschiang/lit-app">Lit</a>, live presentation through large text [Qt]</li>
+<li><a href="https://github.com/rschiang/ostraka">Ostraka</a>, full-featured news channel clone of Presidential Election ballot counting [Three.js, Qt]</li>
+</ul>
+<h4>Websites</h4>
+<ul>
+<li><a href="https://github.com/rschiang/student-weekly/">Weekly</a> [Django]</li>
+<li><a href="https://github.com/sitcon-tw/roboconf">Roboconf</a> [Django]</li>
+</ul>
+<h4>Libraries</h4>
+<ul>
+<li><a href="https://github.com/rschiang/material">Material</a>, Qt/QML component library for Material Design UI</li>
+<li><a href="https://github.com/rschiang/plurq">Plurq</a>, Qt library for Plurk OAuth API</li>
+</ul>
+<h4>Apps</h4>
+<ul>
+<li><a href="https://github.com/rschiang/moedict-meego">MoeDict</a> port on MeeGo Harmattan, a <a href="https://g0v.tw">g0v.tw</a> project [QML]</li>
+<li><a href="https://github.com/rschiang/librii-meego">Librii</a>, a statute reference app on MeeGo Harmattan</li>
+</ul>
+</article>
+	</main>
+	<nav>
+		<ul class="social-nav">
+			<li><a href="mailto:hi@poren.tw" rel="author"><img alt="E-mail" src="https://poren.tw/_/img/2020/icon-email.svg"></a></li>
+			<li><a href="https://twitter.com/rschiang" rel="external nofollow"><img alt="Twitter" src="https://poren.tw/_/img/2020/icon-twitter.svg"></a></li>
+			<li><a href="https://github.com/rschiang" rel="external nofollow"><img alt="GitHub" src="https://poren.tw/_/img/2020/icon-github.svg"></a></li>
+		</ul>
+	</nav>
+</body>
+</html>
