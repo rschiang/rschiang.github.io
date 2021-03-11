@@ -49,9 +49,17 @@
     @font-face {
       font-family: 'Bitter';
       font-style: normal;
-      font-weight: 500 750;
+      font-weight: 100 900;
       font-display: swap;
       src: url(fonts/Bitter.woff2) format('woff2-variations');
+    }
+
+    @font-face {
+      font-family: 'Bitter';
+      font-style: italic;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(fonts/Bitter-Italic.woff2) format('woff2-variations');
     }
 
     @font-face {
