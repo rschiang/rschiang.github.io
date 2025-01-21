@@ -1,88 +1,31 @@
 @font-face {
-  font-family: 'Bitter';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(fonts/Bitter-Medium.woff2) format('woff2');
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(fonts/Bitter.woff2) format('woff2-variations');
 }
 
 @font-face {
-  font-family: 'Bitter';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(fonts/Bitter-Bold.woff2) format('woff2');
+    font-family: 'Bitter';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(fonts/Bitter-Italic.woff2) format('woff2-variations');
 }
 
 @font-face {
-  font-family: 'Bitter';
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url(fonts/Bitter-MediumItalic.woff2) format('woff2');
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url(fonts/Commissioner.woff2) format('woff2-variations');
 }
 
 @font-face {
-  font-family: 'Commissioner';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(fonts/Commissioner-Regular.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Commissioner';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(fonts/Commissioner-Bold.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'Commissioner';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url(fonts/Commissioner-Italic.woff2) format('woff2');
-}
-
-@font-face {
-  font-family: 'Commissioner';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url(fonts/Commissioner-BoldItalic.woff2) format('woff2');
-}
-
-@supports (font-variation-settings: normal) {
-    @font-face {
-      font-family: 'Bitter';
-      font-style: normal;
-      font-weight: 100 900;
-      font-display: swap;
-      src: url(fonts/Bitter.woff2) format('woff2-variations');
-    }
-
-    @font-face {
-      font-family: 'Bitter';
-      font-style: italic;
-      font-weight: 100 900;
-      font-display: swap;
-      src: url(fonts/Bitter-Italic.woff2) format('woff2-variations');
-    }
-
-    @font-face {
-      font-family: 'Commissioner';
-      font-style: normal;
-      font-weight: 400 700;
-      font-display: swap;
-      src: url(fonts/Commissioner.woff2) format('woff2-variations');
-    }
-
-    @font-face {
-      font-family: 'Commissioner';
-      font-style: oblique 0deg 12deg;
-      font-weight: 400 700;
-      font-display: swap;
-      src: url(fonts/Commissioner.woff2) format('woff2-variations');
-    }
+    font-family: 'Commissioner';
+    font-style: oblique 0deg 12deg;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url(fonts/Commissioner.woff2) format('woff2-variations');
 }
